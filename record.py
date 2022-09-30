@@ -4,14 +4,14 @@ import copy
 import cv2
 import os
 
-host = '43.200.248.80'
-port = 22
-username = 'ubuntu'
-pwd = '6112'
+host = ''
+port = 
+username = ''
+pwd = ''
 
 cnopt = pysftp.CnOpts()
 cnopt.hostkeys = None
-path = 'C:\\Users\\leebj\\Desktop\\video\\asd\\123.pem'
+path = '.pem'
 
 filelist = []
 comparelist = []
