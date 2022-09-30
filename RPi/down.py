@@ -3,14 +3,14 @@ import time
 import copy
 import cv2
 
-host = '43.200.248.80'
-port = 22
-username = 'ubuntu'
-pwd = '6112'
+host = ''
+port = 
+username = ''
+pwd = ''
 
 cnopt = pysftp.CnOpts()
 cnopt.hostkeys = None
-path = 'C:\\coding\\aws\\123.pem'
+path = '.pem'
 
 filelist = []
 comparelist = []
