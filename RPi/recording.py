@@ -22,14 +22,14 @@ cv2.destroyAllWindows()
 
 #os.rename("now.avi", "now2.avi")
 
-host = '43.200.248.80'
-port = 22
-username = 'ubuntu'
-pwd = '6112'
+host = ''
+port = 
+username = ''
+pwd = ''
 
 cnopt = pysftp.CnOpts()
 cnopt.hostkeys = None
-path = '/home/siro/code/123.pem'
+path = '.pem'
 
 file_name = na + '.avi'
 
